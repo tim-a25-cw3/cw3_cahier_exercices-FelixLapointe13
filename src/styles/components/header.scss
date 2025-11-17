@@ -1,0 +1,15 @@
+.header {
+    padding: 25px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
