@@ -8,6 +8,36 @@ a {
 
     &:hover {
         color: var(--color-primary);
-        text-decoration: underline;
+        text-decoration: none;
+    }
+}
+
+.bouton {
+    font-family: var(--font-secondary);
+    background-color: var(--color-primary);
+    color: var(--color-black);
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 100px;
+    transition: 0.3s all ease-in;
+
+    &:hover {
+        background-color: var(--color-black);
+        color: var(--color-primary);
+    }
+}
+
+.bouton_reactif {
+    font-family: var(--font-secondary);
+    background-color: var(--color-bg-primary);
+    color: var(--color-black);
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 100px;
+    transition: 0.3s all ease-in;
+
+    &:hover {
+        background-color: var(--color-black);
+        color: var(--color-white);
     }
 }
