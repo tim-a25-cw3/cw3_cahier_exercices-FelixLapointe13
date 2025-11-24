@@ -1,14 +1,32 @@
 .footer {
     background-color: var(--color-black);
-    color: var(--color-white);
+    color: #8c8c8c;
     text-align: center;
 
     h2 {
         margin: 0;
-        padding-bottom: 10px;
+        padding: 50px 0 10px;
+    }
+    span {
+        color: var(--color-white);
+        font-weight: 700;
     }
 
     p {
         margin: 0;
+    }
+
+    .liens {
+        display: flex;
+        justify-content: center;
+        gap: 55px;
+        padding: 40px 0;
+        .icon {
+            color: #8c8c8c;
+            transition: 0.3s all ease-in;
+            &:hover {
+                color: var(--color-white);
+            }
+        }
     }
 }

@@ -18,6 +18,9 @@
 
 .labos__reactifs {
     background: var(--color-primary);
+    .wrapper {
+        padding-bottom: 80px;
+    }
 
     h2 {
         margin: 0;

@@ -1,0 +1,16 @@
+.swiper {
+    .swiper-pagination {
+        // retire le position absolute de d’élément
+        --swiper-pagination-bullet-width: 20px;
+        --swiper-pagination-bullet-height: 20px;
+        --swiper-pagination-color: var(--color-white);
+        --swiper-pagination-bullet-inactive-color: var(--color-black);
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .swiper-pagination-bullet {
+        border-radius: 0;
+        transform: rotate(45deg);
+    }
+}
